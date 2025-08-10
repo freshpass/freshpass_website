@@ -4,14 +4,20 @@ import { motion } from 'framer-motion'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100">
+    <section className="min-h-screen flex items-center justify-center bg-cream">
       <div className="text-center px-6">
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
+          className="flex flex-col items-center"
         >
-          <h1 className="text-6xl md:text-8xl font-bold text-slate-900 mb-6">
+          <img 
+            src="/Icon-Dark.svg" 
+            alt="FreshPass Logo" 
+            className="w-24 h-24 md:w-32 md:h-32 mb-4"
+          />
+          <h1 className="text-6xl md:text-8xl font-bold text-dark-gray mb-6 font-display">
             FreshPass
           </h1>
         </motion.div>
@@ -20,7 +26,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-green mb-8 max-w-2xl mx-auto font-text">
             Fast. Simpler. Secure.
           </p>
         </motion.div>
@@ -31,7 +37,13 @@ export default function Hero() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <button className="bg-slate-900 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-slate-800 transition-colors">
+          <button 
+            onClick={() => {
+              const contactSection = document.querySelector('#contact');
+              contactSection?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="bg-freshpass-green text-dark-gray px-8 py-4 rounded-full text-lg font-medium hover:bg-freshpass-green-70 transition-colors font-text"
+          >
             Get in Touch
           </button>
         </motion.div>
