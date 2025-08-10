@@ -6,24 +6,28 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-cream">
       <div className="text-center px-6">
-        <motion.div 
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="flex flex-col items-center"
-        >
-          <motion.img 
-            src="/Icon-Dark.svg" 
-            alt="FreshPass Logo" 
-            className="w-24 h-24 md:w-32 md:h-32 mb-4"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
-          />
-          <h1 className="text-6xl md:text-8xl font-bold text-dark-gray mb-6 font-display">
-            FreshPass
-          </h1>
-        </motion.div>
+        <div className="flex flex-col items-center">
+          <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
+            >
+              <img 
+                src="/Icon-Dark.svg" 
+                alt="FreshPass Logo" 
+                className="w-24 h-24 md:w-32 md:h-32 mb-4"
+              />
+            </motion.div>
+            <h1 className="text-6xl md:text-8xl font-bold text-dark-gray mb-6 font-display">
+              FreshPass
+            </h1>
+          </motion.div>
+        </div>
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
