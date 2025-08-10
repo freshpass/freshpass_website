@@ -5,19 +5,34 @@ import { motion } from 'framer-motion'
 
 const posts = [
   {
-    title: 'The Future of Web Design',
-    excerpt: 'Exploring emerging trends and technologies shaping digital experiences.',
-    date: 'Coming Soon'
+    title: 'WPA3: Still Not Enough for Enterprise Security',
+    excerpt: 'While WPA3 improves on WPA2, shared credentials remain a fundamental vulnerability. Time-limited access is the real solution.',
+    date: 'March 15, 2024'
   },
   {
-    title: 'Building Scalable Applications',
-    excerpt: 'Best practices for creating robust, maintainable web applications.',
-    date: 'Coming Soon'
+    title: 'Wi-Fi 7 vs 5G: The Connectivity Battle Heats Up',
+    excerpt: 'Wi-Fi 7 promises 46Gbps speeds, but 5G is everywhere. Which technology will dominate the next refresh cycle?',
+    date: 'March 12, 2024'
   },
   {
-    title: 'User Experience Principles',
-    excerpt: 'Core principles that drive exceptional user experiences.',
-    date: 'Coming Soon'
+    title: 'Why Cafés Still Need Wi-Fi in the 5G Era',
+    excerpt: 'Despite ubiquitous cellular, customers expect free Wi-Fi. But shared passwords create liability nightmares for businesses.',
+    date: 'March 10, 2024'
+  },
+  {
+    title: 'The Hidden Cost of Guest Network Breaches',
+    excerpt: 'A single compromised guest password can expose your entire network. Learn why isolation isn\'t enough.',
+    date: 'March 8, 2024'
+  },
+  {
+    title: 'Enterprise Wi-Fi: Speed vs Security Trade-offs',
+    excerpt: 'Faster speeds mean nothing if your network is compromised. How to achieve both performance and protection.',
+    date: 'March 5, 2024'
+  },
+  {
+    title: 'Captive Portals: User Experience Nightmare',
+    excerpt: 'Nobody likes captive portals, but are they necessary? Exploring seamless authentication alternatives.',
+    date: 'March 1, 2024'
   }
 ]
 
@@ -30,9 +45,9 @@ export default function Blog() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-slate-900">Insights</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-slate-900">Wi-Fi Security Insights</h2>
         </motion.div>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {posts.map((post, index) => (
             <motion.div
               key={post.title}
