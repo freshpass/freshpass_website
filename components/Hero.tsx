@@ -34,7 +34,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <p className="text-xl md:text-2xl text-gray-green mb-8 max-w-2xl mx-auto font-text">
-            Fast. Simpler. Secure.
+            Fast. Simple. Secure. Today. Everyday
           </p>
         </motion.div>
         <motion.div 
