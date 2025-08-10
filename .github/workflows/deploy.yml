@@ -3,6 +3,7 @@ name: Deploy freshpass Website
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   deploy:
