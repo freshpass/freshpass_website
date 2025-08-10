@@ -20,7 +20,7 @@ export default function Hero() {
               <img 
                 src="/Icon-Dark.svg" 
                 alt="FreshPass Logo" 
-                className="w-24 h-24 md:w-32 md:h-32 mb-4"
+                className="w-24 h-24 md:w-32 md:h-32 mb-4 mx-auto block"
               />
             </motion.div>
             <h1 className="text-6xl md:text-8xl font-bold text-dark-gray mb-6 font-display">
