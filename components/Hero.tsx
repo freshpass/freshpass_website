@@ -12,10 +12,13 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="flex flex-col items-center"
         >
-          <img 
+          <motion.img 
             src="/Icon-Dark.svg" 
             alt="FreshPass Logo" 
             className="w-24 h-24 md:w-32 md:h-32 mb-4"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
           />
           <h1 className="text-6xl md:text-8xl font-bold text-dark-gray mb-6 font-display">
             FreshPass
