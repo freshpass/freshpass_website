@@ -37,14 +37,12 @@ npm run build
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the site.
 
 ## Tech Stack
 
-- Next.js 13
-- React 18
-- Tailwind CSS
-- Framer Motion
-- Lenis (smooth scrolling)
-- TypeScript# Deployed to new server
-# Clean server deployment
+ - Next.js 13 (React framework)
+ - React 18 (JavaScript library)
+ - TypeScript (for type safety)
+ - Tailwind CSS (for styling)
+ - Framer Motion (for animations)
+ - Lenis (for smooth scrolling)
