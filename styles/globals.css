@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --freshpass-green: #A4D171;
+  --freshpass-green-70: #A4D171B3;
+  --freshpass-green-30: #A4D1714D;
+  --dark-gray: #2E3331;
+  --gray-green: #47534F;
+  --cream: #EDF0E9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--dark-gray);
+  background-color: var(--cream);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+p, span, div {
+  font-family: 'Red Hat Text', sans-serif;
+}
