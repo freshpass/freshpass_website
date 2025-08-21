@@ -13,16 +13,10 @@ export default function PageHero({ title, subtitle, backgroundImage, showLogo = 
   return (
     <section className="relative min-h-[60vh] flex items-center justify-center bg-cream overflow-hidden">
       {backgroundImage && (
-        <motion.div 
-          initial={{ scale: 1.1, filter: "blur(8px)" }}
-          animate={{ scale: 1, filter: "blur(0px)" }}
-          transition={{ duration: 1.5, ease: "easeOut" }}
-        >
-          <div 
-            className="absolute inset-0 bg-cover bg-center opacity-30"
-            style={{ backgroundImage: `url(${backgroundImage})` }}
-          />
-        </motion.div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-30"
+          style={{ backgroundImage: `url(${backgroundImage})` }}
+        />
       )}
       
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
