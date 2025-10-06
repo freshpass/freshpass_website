@@ -1,4 +1,4 @@
-# FreshPass Today Website 2025
+# FreshPass Today Website
 
 A modern, animated product website built with Next.js, Tailwind CSS, and Framer Motion.
 
