@@ -1,6 +1,6 @@
 'use client'
 
-// Shababu Blog Component
+//  Blog Component
 import { motion } from 'framer-motion'
 
 const posts = [
