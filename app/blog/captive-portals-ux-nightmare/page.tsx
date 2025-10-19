@@ -28,7 +28,7 @@ export default function CaptivePortalsPost() {
                 Nobody likes captive portals, but are they necessary? Exploring seamless authentication alternatives.
               </p>
               <div className="text-sm text-slate-500">
-                Published October 18, 2024
+                Published October 18, 2025
               </div>
             </div>
           </motion.div>
@@ -40,7 +40,7 @@ export default function CaptivePortalsPost() {
           >
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                We've all been there: you connect to a Wi-Fi network, open your browser, and instead of reaching your destination, you're greeted by a captive portal demanding your email, phone number, or social media login. It's 2024, and we're still dealing with this antiquated user experience that feels more like a digital tollbooth than modern connectivity.
+                We've all been there: you connect to a Wi-Fi network, open your browser, and instead of reaching your destination, you're greeted by a captive portal demanding your email, phone number, or social media login. It's 2025, and we're still dealing with this antiquated user experience that feels more like a digital tollbooth than modern connectivity.
               </p>
 
               <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">The Platform Fragmentation Problem</h2>
