@@ -2,6 +2,7 @@
 
 //  Blog Component
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 const posts = [
   {
@@ -32,7 +33,7 @@ const posts = [
   {
     title: 'Captive Portals: User Experience Nightmare',
     excerpt: 'Nobody likes captive portals, but are they necessary? Exploring seamless authentication alternatives.',
-    date: 'March 1, 2024'
+    date: 'October 18, 2024'
   }
 ]
 
@@ -57,11 +58,13 @@ export default function Blog() {
               transition={{ delay: index * 0.1 }}
               whileHover={{ y: -5 }}
             >
-              <article className="p-6 rounded-2xl border border-slate-200 hover:shadow-lg transition-shadow cursor-pointer">
-              <h3 className="text-xl font-semibold mb-3 text-slate-900">{post.title}</h3>
-              <p className="text-slate-600 mb-4">{post.excerpt}</p>
-              <span className="text-sm text-slate-500">{post.date}</span>
-              </article>
+              <Link href={post.title === 'Captive Portals: User Experience Nightmare' ? '/blog/captive-portals-ux-nightmare' : '#'}>
+                <article className="p-6 rounded-2xl border border-slate-200 hover:shadow-lg transition-shadow cursor-pointer">
+                <h3 className="text-xl font-semibold mb-3 text-slate-900">{post.title}</h3>
+                <p className="text-slate-600 mb-4">{post.excerpt}</p>
+                <span className="text-sm text-slate-500">{post.date}</span>
+                </article>
+              </Link>
             </motion.div>
           ))}
         </div>
