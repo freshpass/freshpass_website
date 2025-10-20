@@ -51,7 +51,7 @@ export default function Hero() {
             }}
             className="bg-freshpass-green text-dark-gray px-8 py-4 rounded-full text-lg font-medium hover:bg-freshpass-green-70 transition-colors font-text"
           >
-            Get in Touch
+            Request Demo
           </button>
         </motion.div>
       </div>

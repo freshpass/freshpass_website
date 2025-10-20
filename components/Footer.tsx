@@ -33,10 +33,26 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="border-t border-gray-green pt-8 text-sm text-center md:text-left">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>© 2024 FreshPass Today. All rights reserved.</p>
-            <p>Secure Wi-Fi Solutions</p>
+        <div className="border-t border-gray-green pt-8 text-sm">
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
+              <p className="font-semibold text-freshpass-green mb-2">FreshPass Today</p>
+              <p>© 2025 FreshPass Today. All rights reserved.</p>
+              <p className="mt-2 text-xs opacity-80">Secure Wi-Fi Solutions</p>
+            </div>
+            <div className="text-xs opacity-70">
+              <p className="font-semibold mb-2">Operated by Shababu System Ltd</p>
+              <p className="mt-2">
+                <a 
+                  href="https://find-and-update.company-information.service.gov.uk/company/16621448" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-freshpass-green transition-colors underline"
+                >
+                  View Company Information
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
