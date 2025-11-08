@@ -21,7 +21,7 @@ export default function AirportLoungeCaseStudy() {
       <PageHero 
         title="Seamless Airport Lounge Wi-Fi Beyond SIM Limitations"
         subtitle="How FreshPass bridges connectivity gaps for international travelers using enterprise-grade infrastructure"
-        backgroundImage="https://picsum.photos/2000/800?random=2"
+        backgroundImage="/images/placeholders/airport-bg.svg"
         showLogo={false}
       />
 

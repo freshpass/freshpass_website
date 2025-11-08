@@ -21,7 +21,7 @@ export default function CaseStudyContent() {
       <PageHero 
         title="Frictionless Hotel Wi-Fi With Secure QR Codes"
         subtitle="How FreshPass enables seamless Wi-Fi onboarding in hospitality using Meraki IPSK—no RADIUS required"
-        backgroundImage="https://picsum.photos/2000/800?random=1"
+        backgroundImage="/images/placeholders/hotel-bg.svg"
         showLogo={false}
       />
 
