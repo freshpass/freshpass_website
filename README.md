@@ -2,7 +2,7 @@
 
 A modern, animated product website built with Next.js, Tailwind CSS, and Framer Motion.
 
-🚀 **Live at:** freshpass.today
+🚀 **Live at:** freshpass.today, refreshwifi.com
 
 ## Features
 
